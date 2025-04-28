@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ceci est mon portfolio étudiant">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mon portfolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-icons">menu</span>
+                </button>
+                <a href="/" class="header-logo">
+                    <img src="img/html.jpg" alt="logo">
+                </a>
+                <nav>
+                    <ul class="header-menu">
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#realisations">Réalisations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+        <img src="img/slider.jpg" class="slider-background" alt="img de fond du slider">
+        <div class="slider-content">
+            <h1>Ilies DOUDOU</h1>
+            <p>Je suis développeur en deuxième année de BTS SIO</p>
+        </div>
+    </div>
+    <section id="apropos">
+        <div class="section">
+            <div class="boxed">
+                <div class="flex toColumn mCenter">
+                    <div class="w40 wm100">
+                        <h2>À propos de moi</h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>Actuellement élève en deuxième année de BTS SIO SLAM, je suis passionné par le développement web,
+                           je conçois des sites modernes, responsives et intuitifs. Curieux et toujours à l’affût des nouvelles 
+                           technologies, j’aime relever des défis et apprendre en continu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="section dark">
+            <div class="boxed text-center">
+                <h2>Découvrez mes comptétences</h2>
+                <div class="flex toColumn gap20">
+                    <div class="w25 wm100 skill">
+                        <img src="img/html.jpg" alt="img logo html">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/css.jpg" alt="img logo css">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/js.jpg" alt="img logo javascript">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="w25 wm100 skill">
+                        <img src="img/office365.jpg" alt="img logo office365">
+                        <h3>office365</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="realisations">
+        <div class="section">
+            <div class="boxed text-center">
+                <h2>Mes réalisations</h2>
+                <div class="flex wrap gap20 space-between">
+                    <div class="w32 wm50 réalisation">
+                        <a
+                            href="https://iliesd.github.io/1603881-creez-votre-site-web-avec-html5-et-css3-P4C4-solution/">
+                            <!--lien du site-->
+                            <img src="img/robbie.png" alt="img site robbie lens"> <!--image du site-->
+                            <h3>Site vitrine d'une photographe</h3>
+                        </a>
+                    </div>
+                    <div class="w32 wm47 réalisation">
+                        <a href="https://iliesd.github.io/pok-mon/"> <!--lien du site-->
+                            <img src="img/pokémon.png" alt="img site pokémon"> <!--image du site-->
+                            <h3>Site pokémon</h3>
+                        </a>
+                    </div>
+                    <div class="w32 wm47 réalisation">
+                        <a href="https://iliesd.github.io/MotsJustes/">
+                            <!--lien du site-->
+                            <img src="img/MotsJustes.jpg" alt="img site robbie lens"> <!--image du site-->
+                            <h3>Site d'orthographe inspiré d'un exercice openclassroom</h3>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section dark">
+            <div class="boxed text-center">
+                <h2>Contactez-moi</h2>
+                <div class="flex toColumn space-between mgap20">
+                    <div class="w32 wm100 contact">
+                        <span class="material-icons icon">mail</span>
+                        <span class="label">e-mail</span>
+                        <span class="value">iliesdoudou90@gmail.com</span>
+                    </div>
+                    <div class="w32 wm100 contact">
+                        <span class="material-icons icon">phone</span>
+                        <span class="label">téléphone</span>
+                        <span class="value">07 66 69 45 22</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
